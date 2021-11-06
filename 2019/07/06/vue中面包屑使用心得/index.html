@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next pisces use-motion" lang="en">
+<html class="theme-next pisces use-motion" lang="zh-CN">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -90,12 +90,12 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="vue中面包屑使用心得">
 <meta property="og:url" content="http://example.com/2019/07/06/vue%E4%B8%AD%E9%9D%A2%E5%8C%85%E5%B1%91%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/index.html">
-<meta property="og:site_name" content="Hexo">
+<meta property="og:site_name" content="不忘初心，砥砺前行">
 <meta property="og:description" content="做了几个vue的项目，其中面包屑在PC的需求中很常见，其实一路走来，也算是不断在改变优化的，记得刚开始用vue的时候，实现面包屑，是最笨的方式，就是直接在页面写死，这样，就得在每个页面都得写一遍，而且如果，遇到后期需求变化，维护起来也很浪费时间。后来，想到了路由元信息。   路由提供了meta属性，用来给页面访问，我们其实只要在路由配置里加上相关meta配置，之后，在页面中，通过this.$ro">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2019-07-06T01:46:27.000Z">
 <meta property="article:modified_time" content="2019-07-06T02:03:50.206Z">
-<meta property="article:author" content="John Doe">
+<meta property="article:author" content="better沐小泡">
 <meta property="article:tag" content="vue">
 <meta property="article:tag" content="vue-router">
 <meta name="twitter:card" content="summary">
@@ -114,7 +114,7 @@
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     duoshuo: {
       userId: '0',
-      author: 'Author'
+      author: '博主'
     },
     algolia: {
       applicationID: '',
@@ -134,7 +134,7 @@
 
 
 
-  <title>vue中面包屑使用心得 | Hexo</title>
+  <title>vue中面包屑使用心得 | 不忘初心，砥砺前行</title>
   
 
 
@@ -146,7 +146,7 @@
 
 <meta name="generator" content="Hexo 5.4.0"></head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
 
   
   
@@ -165,12 +165,12 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Hexo</span>
+        <span class="site-title">不忘初心，砥砺前行</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
       
-        <p class="site-subtitle"></p>
+        <p class="site-subtitle">前端攻城狮</p>
       
   </div>
 
@@ -195,7 +195,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
             
-            Home
+            首页
           </a>
         </li>
       
@@ -203,9 +203,9 @@
         <li class="menu-item menu-item-tags">
           <a href="/tags/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
-            Tags
+            标签
           </a>
         </li>
       
@@ -215,7 +215,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
             
-            Categories
+            分类
           </a>
         </li>
       
@@ -225,7 +225,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
             
-            Archives
+            归档
           </a>
         </li>
       
@@ -235,7 +235,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
             
-            About
+            关于
           </a>
         </li>
       
@@ -291,7 +291,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Hexo">
+      <meta itemprop="name" content="不忘初心，砥砺前行">
     </span>
 
     
@@ -309,9 +309,9 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">发表于</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-07-06T09:46:27+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-06T09:46:27+08:00">
                 2019-07-06
               </time>
             
@@ -330,7 +330,7 @@
                 <i class="fa fa-folder-o"></i>
               </span>
               
-                <span class="post-meta-item-text">In</span>
+                <span class="post-meta-item-text">分类于</span>
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
@@ -341,7 +341,7 @@
 
                 
                 
-                  , 
+                  ， 
                 
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
@@ -524,7 +524,7 @@
                 <a href="/archives/">
               
                   <span class="site-state-item-count">56</span>
-                  <span class="site-state-item-name">posts</span>
+                  <span class="site-state-item-name">日志</span>
                 </a>
               </div>
             
@@ -535,7 +535,7 @@
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
                   <span class="site-state-item-count">42</span>
-                  <span class="site-state-item-name">categories</span>
+                  <span class="site-state-item-name">分类</span>
                 </a>
               </div>
             
@@ -546,7 +546,7 @@
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
                   <span class="site-state-item-count">49</span>
-                  <span class="site-state-item-name">tags</span>
+                  <span class="site-state-item-name">标签</span>
                 </a>
               </div>
             
@@ -614,14 +614,14 @@
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">John Doe</span>
+  <span class="author" itemprop="copyrightHolder">better沐小泡</span>
 
   
 </div>
 -->
 
 <!-- 
-  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
 
 
@@ -629,7 +629,7 @@
 
 
 
-  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
 
 
 
@@ -643,7 +643,7 @@
   <span class="with-love">
     <i class="fa fa-balance-scale"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">John Doe</span>
+  <span class="author" itemprop="copyrightHolder">better沐小泡</span>
 </div>
 
 <div class="busuanzi-count">
